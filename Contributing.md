@@ -1,35 +1,25 @@
-<!-- PROJECT NAME -->
-<p align="center">
-  <h1 align="center">IT115 Group1 Project Contibuting rules</h1>
-  <p align="center">
-  <!-- CONTRIBUTING -->
-  
+# IT115 Group1 Project Contibuting rules
+
 ## Contributing
 
-Any contributions are **greatly appreciated**. Please feel free to add any features or fixes you like. We will review the PR and be happy to add your work to this project.
+Any contributions are greatly appreciated. Please feel free to add any features or fixes you like. We will review the PR and be happy to add your work to this project.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
-3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
-4. Push to the Branch (`git push origin feature/NewFeature`)
-5. Open a Pull Request
-  
+   - Fork the Project
+   - Create your Feature Branch (git checkout -b feature/NewFeature)
+   - Commit your Changes (git commit -m 'Add some NewFeature')
+   - Push to the Branch (git push origin feature/NewFeature)
+   - Open a Pull Request
+
 ## Code of Conduct
-  
+
 Please be respectful of other contributors by:
-  
-1. Considering their viewpoints and experiences
-2. Using welcoming and inclusive language
-3. Offering criticism in a contstructive way
-4. Receiving constructive criticism graciously
-  
-## How to test
-  1. git fetch
-  2. git pull main
-  3. node filename.js
 
+   - Considering their viewpoints and experiences
+   - Using welcoming and inclusive language
+   - Offering criticism in a constructive way
+   - Receiving constructive criticism graciously
+   - Address mistakes with kindness
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+### Acknowledgements
 
 This group project started during Spring 2022 with 5 North Seattle College Students based in Seattle, WA.
