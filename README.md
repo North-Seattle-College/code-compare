@@ -29,4 +29,6 @@ Group Project Presentation [group] due 6/8/22
 9. How did you deploy code to your server?
 10. Provide a URL so others in the class can playtest your project.
 
+Link to PowerPoint Project:  https://docs.google.com/presentation/d/1tViR5LdRXbq5j4jYWbPI_Z6Xxee5Tocgvitl9jyTdl4/edit?usp=sharing    
+
 Started & updated by Joette 1jc
