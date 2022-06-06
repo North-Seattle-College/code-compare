@@ -1,77 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Final Project 115/JavaScript</title>
     <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
+      * {
+        padding: 0;
+        margin: 0;
+      }
 
-        body {
-            background-color: #E0FFFF;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color: MidnightBlue;
-        }
+      body {
+        background-color: #e0ffff;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: MidnightBlue;
+      }
 
-        div#wrapper {
-            width: 940px;
-            margin: 20px auto;
-            text-align: center;
-        }
+      div#wrapper {
+        width: 940px;
+        margin: 20px auto;
+        text-align: center;
+      }
 
-        img {
-            padding-top: 20px;
-        }
+      img {
+        padding-top: 20px;
+      }
 
-        h1 {
-            padding-top: 20px;
-        }
+      h1 {
+        padding-top: 20px;
+      }
 
-        h2 {
-            margin-top: 40px;
-        }
+      h2 {
+        margin-top: 40px;
+      }
 
-        p {
-            margin-top: 40px;
-            line-height: 1.4;
-        }
+      p {
+        margin-top: 40px;
+        line-height: 1.4;
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div id="wrapper">
-        <h1>JavaScript: Bringing Web Pages to Life!</h1>
-        <img src="../Final Project/images/JSlogo.jpeg" alt="JSLogo">
-        <h2>What Is JavaScript?</h2>
-        <p>The Oxford Languages Dictionary defines it as <i>"an object-oriented computer programming language commonly
-                used to create interactive effects within web browsers."</i> JavaScript is what is known as an
-            lightweight interpreted programming language. This means that it is read by a different program called an
-            interpreter at the time of execution instead of being compiled before running. Because
-            of this, an interpretive
-            language can make changes instantly to the output and is interactive.</p>
-        <h2>So, What Does JavaScript Do?</h2>
-        <p>
-            If you have ever ordered online then you have probably seen JavaScript in action! While HTML and CSS are
-            used for the
-            style and structure of a website, JavaScript (often called JS) adds functionality through interactive
-            elements. Essentially, it is <b>"a text-based programming language used both on the client-side and server-side that
-            allows you to make web pages interactive."</b> <a href="https://www.hackreactor.com/blog/what-is-javascript-used-for">(www.hackreactor.com)</a>
-            An example is clicking on a pair of pants and adding it to your cart while shopping. A JS function takes the
-            information and adds it to the "code", moving the pants from their inventory to your cart for checkout.
-        </p>
-        <h2>Here's an example of a JavaScript function</h2>
-        <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">Turn on the light</button>
+      <h1>JavaScript: Bringing Web Pages to Life!</h1>
+      <img src="group1/marcy/images/JSlogo.jpg" />
+      <h2>What Is JavaScript?</h2>
+      <p>
+        The Oxford Languages Dictionary defines it as
+        <i
+          >"an object-oriented computer programming language commonly used to
+          create interactive effects within web browsers."</i
+        >
+        JavaScript is what is known as an lightweight interpreted programming
+        language. This means that it is read by a different program called an
+        interpreter at the time of execution instead of being compiled before
+        running. Because of this, an interpretive language can make changes
+        instantly to the output and is interactive.
+      </p>
+      <h2>So, What Does JavaScript Do?</h2>
+      <p>
+        If you have ever ordered online then you have probably seen JavaScript
+        in action! While HTML and CSS are used for the style and structure of a
+        website, JavaScript (often called JS) adds functionality through
+        interactive elements. Essentially, it is
+        <b
+          >"a text-based programming language used both on the client-side and
+          server-side that allows you to make web pages interactive."</b
+        >
+        <a href="https://www.hackreactor.com/blog/what-is-javascript-used-for"
+          >(www.hackreactor.com)</a
+        >
+        An example is clicking on a pair of pants and adding it to your cart
+        while shopping. A JS function takes the information and adds it to the
+        "code", moving the pants from their inventory to your cart for checkout.
+      </p>
+      <h2>Here's an example of a JavaScript function</h2>
+      <button
+        onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'"
+      >
+        Turn on the light
+      </button>
 
-    <img id="myImage" src="images/pic_bulboff.gif" style="width:100px">
+      <img id="myImage" src="images/pic_bulboff.gif" style="width: 100px" />
 
-<button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">Turn off the light</button>
-<p>When you click on the button to turn the light either on or off, the JS interpreter runs the code to change what you see on the page.</p>
+      <button
+        onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'"
+      >
+        Turn off the light
+      </button>
+      <p>
+        When you click on the button to turn the light either on or off, the JS
+        interpreter runs the code to change what you see on the page.
+      </p>
     </div>
     <!--end div wrapper-->
-</body>
-
+  </body>
 </html>
